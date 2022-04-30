@@ -1,0 +1,33 @@
+.main-navbar {
+  height: 60px;
+  background-color: #3f51b5;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-section  {
+  height: 50px;
+  width: 50px;
+}
+
+.logo-section img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.profile-section {
+  height: 50px;
+  width: 50px;
+}
+
+.profile-section img{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}

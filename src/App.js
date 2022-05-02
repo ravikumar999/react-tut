@@ -11,6 +11,7 @@ import Portfolio from "./pages/portfolio/portfolio";
 import Traning from "./pages/training/training";
 import Course from "./pages/courses/course";
 import Contact from "./pages/contact/contact";
+import Home from "./pages/home/home";
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
           <div className="content">
 
             <Routes>
+              <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/training" element={<Traning />} />

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./home.css"
+import InfoTable from "../../component/info-table/info-table";
 const Home = () => {
   const [name, setName] = useState("");
   const [roll, setRoll] = useState(0);
@@ -62,11 +63,7 @@ const Home = () => {
           {
             studentInfo.map((info, index) => {
               return (
-                <tr key={index}>
-                  <td>{info.name}</td>
-                  <td>{info.roll}</td>
-                  <td>{info.subject}</td>
-                </tr>
+                <InfoTable data={info} index={index} key={index} />
               )
             })
           }
@@ -83,7 +80,7 @@ const Home = () => {
           <input type="text" placeholder="enter subject" value={subject} onChange={$event => setSubject($event.target.value)} />
         </div>
         <button onClick={storeData}>Insert</button>
-      </div>
+      </div>  
     </div>
   )
 }

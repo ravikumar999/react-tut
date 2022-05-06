@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useReducer } from "react";
 import "./home.css"
 import InfoTable from "../../component/info-table/info-table";
+
 const Home = () => {
   const [name, setName] = useState("");
   const [roll, setRoll] = useState(0);

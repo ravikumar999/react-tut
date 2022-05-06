@@ -1,6 +1,6 @@
 .main-navbar {
-  height: 60px;
-  background-color: #3f51b5;
+  height: 56px;
+  background-color: #212121;
   box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
   padding-top: 5px;
   padding-left: 20px;
@@ -11,7 +11,7 @@
 
 .logo-section  {
   height: 50px;
-  width: 50px;
+  width: 170px;
 }
 
 .logo-section img {
@@ -19,15 +19,40 @@
   width: 100%;
 }
 
-
-
-.profile-section {
-  height: 50px;
-  width: 50px;
+.search-section {
+  align-self: center;
+  flex: 1;
+  text-align: center;
 }
 
-.profile-section img{
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
+.search-input{
+  height: 40px;
+  width: 540px;
+  background-color: black;
+  border: 1px solid #3f3d3d;
+  color: #fff;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-btn {
+  height: 40px;
+  width: 64px;
+  background-color: #323232;
+  border: none;
+  color: #fff;
+}
+
+.login-section {
+  width: 225px;
+  align-self: center;
+}
+
+.sign-btn {
+  background-color: transparent;
+  border: 1px solid blue;
+  color: white;
+  padding: 7px;
 }

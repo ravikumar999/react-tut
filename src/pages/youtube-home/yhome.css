@@ -1,0 +1,23 @@
+.y-home-section {
+  background-color: #181818;
+  height: calc(100vh - 56px);
+}
+
+.tag-section {
+  padding: 12px 12px 12px 24px;
+  border-top: 1px solid #484848;
+  border-bottom: 1px solid #484848;
+  display: flex;
+  gap:10px;
+  background-color: #212121;
+}
+
+.tag-item {
+  height: 32px;
+  border: 1px solid #4e4b4b;
+  color: white;
+  border-radius: 50px;
+  min-width: 50px;
+  text-align: center;
+  line-height: 30px;
+}

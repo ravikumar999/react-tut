@@ -1,4 +1,10 @@
 import { Fragment } from "react";
+import logo from "../../assets/images/logo.svg";
+// import SearchIcon from '@mui/icons-material/Search';
+// import MicIcon from '@mui/icons-material/Mic';
+// import AppsIcon from '@mui/icons-material/Apps';
+// import MoreVertIcon from '@mui/icons-material/MoreVert';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import "./navbar.css";
 
 const Navbar = () => {
@@ -6,10 +12,18 @@ const Navbar = () => {
     <Fragment>
       <div className="main-navbar">
         <div className="logo-section">
-          <img src="https://toppng.com/uploads/preview/design-for-logo-11549988276bxsuzsd1y1.png" alt=""/>
+          <img src={logo} />
         </div>
-        <div className="profile-section">
-          <img src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt=""/>
+
+        <div className="search-section">
+          <input type="text" className="search-input" />
+          <button className="search-btn">
+            Search
+            {/* <SearchIcon /> */}
+          </button>
+        </div>
+        <div className="login-section">
+         <button className="sign-btn">SIGN IN</button>
         </div>
       </div>
     </Fragment>
@@ -17,3 +31,4 @@ const Navbar = () => {
 }
 
 export default Navbar;
+// npm install @mui/material @emotion/react @emotion/styled

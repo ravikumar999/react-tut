@@ -2,6 +2,7 @@
   width: 250px;
   height: calc(100vh - 60px);
   box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+  background-color: #212121;
 }
 
 .menu-section {
@@ -13,7 +14,11 @@
 
 .menu-section a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.menu-section a:hover {
+  color: white;
 }
 
 
@@ -21,12 +26,11 @@
 .menu-item {
   height: 40px;
   font-size: 14px;
-  border-bottom: 1px solid #f2f2f2;
   padding-left: 20px;
   line-height: 42px;
   cursor: pointer;
 }
 
 .menu-item:hover {
-  background-color: #e2e2e2;
+  background-color: #393939;
 }

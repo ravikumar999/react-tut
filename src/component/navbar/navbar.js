@@ -6,7 +6,6 @@ import logo from "../../assets/images/logo.svg";
 // import MoreVertIcon from '@mui/icons-material/MoreVert';
 // import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import "./navbar.css";
-
 const Navbar = () => {
   return (
     <Fragment>
@@ -21,9 +20,6 @@ const Navbar = () => {
             Search
             {/* <SearchIcon /> */}
           </button>
-        </div>
-        <div className="login-section">
-         <button className="sign-btn">SIGN IN</button>
         </div>
       </div>
     </Fragment>

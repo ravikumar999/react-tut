@@ -13,10 +13,11 @@ import Course from "./pages/courses/course";
 import Contact from "./pages/contact/contact";
 import Home from "./pages/home/home";
 import YoutubeHome from "./pages/youtube-home/yhome";
+import Login from "./pages/login/login";
 function App() {
   return (
     <div>
-      <Navbar />
+           <Navbar />
       <div className="main-content">
         <Router>
           <div className="app-sidebar">
@@ -32,6 +33,7 @@ function App() {
               <Route path="/training" element={<Traning />} />
               <Route path="/courses" element={<Course />} />
               <Route path="/contact-us" element={<Contact />} />
+              <Route path="/login" element={<Login />} />
             </Routes>
 
           </div>
